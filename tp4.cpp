@@ -3,7 +3,8 @@
 #include <string.h>
 #include <time.h>
 
-typedef struct{
+typedef struct
+{
     int TareaID;   
     char *Descripcion;
     int Duracion;  
