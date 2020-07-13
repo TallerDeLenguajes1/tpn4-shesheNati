@@ -13,7 +13,7 @@ typedef struct{
 /***********************  PROTOTIPO *****************************/
 void AltaDeTareas(S_Tarea **tar, int cantT);
 void OrganizandoTareas(S_Tarea **tareasT, S_Tarea **tareasP, S_Tarea **tareasR, , int cantT);
-
+void MostrarTareas(S_Tarea tar,int cantT);
 /*********************** PROGRAMA PRINCIPAL ************************/
 int main()
 {
